@@ -6,6 +6,7 @@
 + **E-mail:** yuliya.bytsanets@gmail.com
 + **Telegram:** [Yuliya_Telenchenko](https://t.me/yuliya_telenchenko)
 ## Summary
+I am 28 years old. I work as a leading engineer. I develop gas supply projects for residential and office buildings. I have achieved a lot in my field. I'm interested in learning something new and trying it myself. This is why I am here. My goal is to gain knowledge in the field of front-end development.
 ## Skills
 - HTML5
 - CSS3 
