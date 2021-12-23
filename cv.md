@@ -13,8 +13,7 @@
 - Adobe Photoshop, Figma(for web development)
 - VSCode
 ## Code Examples
-![code examples](file:///C:/Users/vanes/OneDrive/Изображения/code.png)
-<img src="file:///C:/Users/vanes/OneDrive/Изображения/code.png" style="width:800px;height:300px;">
+![code examples](/code.png)
 ## Education
 + *Sukhoi State Technical University of Gomel*
     * engineer
