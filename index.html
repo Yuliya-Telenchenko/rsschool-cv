@@ -9,6 +9,16 @@
   </head>
   <body>
     <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Example code</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        </ul>
+      </nav>
       <div class="presentation">
         <img class="photo" src="image/photo.jpg" alt="photo" />
         <div class="about">
@@ -20,7 +30,7 @@
     <main class="main">
       <div class="wrapper">
         <section class="container">
-          <div class="skills">
+          <div class="skills" id="skills">
             <h2 class="title">Skills</h2>
             <ul class="list">
               <li>HTML5</li>
@@ -30,7 +40,7 @@
               <li>VSCode</li>
             </ul>
           </div>
-          <div class="education">
+          <div class="education" id="education">
             <h2 class="title">Education</h2>
             <ul class="list">
               <li>
@@ -49,7 +59,7 @@
               </li>
             </ul>
           </div>
-          <div class="languages">
+          <div class="languages" id="languages">
             <h2 class="title">Languages</h2>
             <ul class="list">
               <li>Russian - native</li>
@@ -59,7 +69,7 @@
           </div>
         </section>
         <section class="case">
-          <div class="summary">
+          <div class="summary" id="summary">
             <h2 class="title">Summary</h2>
             <p class="experience">
               I am 28 years old. I work as a leading engineer. I develop gas
@@ -69,48 +79,47 @@
               gain knowledge in the field of front-end development.
             </p>
           </div>
+          <div class="example" id="code">
+            <h2 class="title">Example code</h2>
+            <code class="code">
+              <pre>
+                <span class="function">function</span> multiply (a,b){
+                  <span class="function">return</span> a * b
+                }
+              </pre>
+            </code>
+          </div>
+          <div class="contacts" id="contacts">
+            <h2 class="title">Contacts</h2>
+            <ul class="connection">
+              <li class="adress">Minsk, Belarus</li>
+              <li class="phone">+375333891096</li>
+              <li class="email">yuliya.bytsanets@gmail.com</li>
+              <li class="github"><a class="link"
+                href="https://github.com/Yuliya-Telenchenko"
+                title="GitHub"
+                target="_blank"
+              >
+                /Yuliya-Telenchenko
+              </a></li>
+              <li class="telegram"><a class="link"
+                href="https://t.me/yuliya_telenchenko"
+                title="Telegram"
+                target="_blank"
+                >Yuliya_Telenchenko</a
+              ></li>
+            </ul>
+          </div>
         </section>
       </div>
     </main>
-    <footer class="contacts">
-      <div class="footer">
-        <div class="connection">
-          <h2 class="title">Adress</h2>
-          <p class="adress">Minsk, Belarus</p>
-        </div>
-        <div class="connection">
-          <h2 class="title">Phone</h2>
-          <p class="phone">+375333891096</p>
-        </div>
-        <div class="connection">
-          <h2 class="title">Email</h2>
-          <p class="email">yuliya.bytsanets@gmail.com</p>
-        </div>
-        <div class="connection">
-          <h2 class="title">Github</h2>
-          <a
-            class="github"
-            href="https://github.com/Yuliya-Telenchenko"
-            title="GitHub"
-            target="_blank"
-          >
-            /Yuliya-Telenchenko
-          </a>
-        </div>
-        <div class="connection">
-          <h2 class="title">Telegram</h2>
-          <a
-            class="telegram"
-            href="https://t.me/yuliya_telenchenko"
-            title="Telegram"
-            target="_blank"
-            >Yuliya_Telenchenko</a
-          >
-        </div>
-      </div>
+    <footer class="footer"> 
       <div class="rsschool">
-        <a class="title" href="https://rs.school/js/">RS School</a>
-        <p class="year">2021</p>
+        <div class="rsschool-link">
+          <a class="rsschool-link" href="https://rs.school/js/">RS School</a>
+          <p class="year">&#169; 2021</p>
+        </div>
+        <img class="rsschool-image" src="../image/rs_school_js.svg" alt="RSSchool">
       </div>
     </footer>
   </body>
