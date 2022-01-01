@@ -1,1 +1,2 @@
-https://Yuliya-Telenchenko.github.io/rsschool-cv/
+https://yuliya-telenchenko.github.io/rsschool-cv/cv
+https://yuliya-telenchenko.github.io/rsschool-cv/
