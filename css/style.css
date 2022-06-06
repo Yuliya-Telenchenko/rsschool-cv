@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth; 
 }
-
 body{
   padding: 0;
   max-width: 1440px;
@@ -13,113 +12,91 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
 }
-
 .header{
   background: url('../image/gray.jpg');
   padding: 30px 0;
 }
-
 .nav-list{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
 }
-
 .nav-item{
   padding-right: 20px;
 }
-
 .nav-link,
 .rsschool-link,
 .link{
   text-decoration: none;
   color: #282828;
 }
-
 .presentation{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .photo{
   border-radius: 50%;
 }
-
 .about{
   font-family: Montserrat, AdobeInvisFont, MyriadPro, sans-serif;
 }
-
 .name{
   padding-bottom: 50px;
   font-size: 50px;
   font-weight: bold;
 }
-
 .profession{
   font-size: 30px;
 }
-
 .wrapper{
   display: flex;
   flex-direction: row;
 }
-
 .container{
   float: left;
   width: 40%;
   margin: 50px;
 }
-
 .case{
   padding: 50px;
   width: 60%;
   background: #EBEBEB;
 }
-
 .title{
   margin-bottom: 20px;
   font-size: 20px;
 }
-
 .skills,
 .education,
 .languages{
   margin-bottom: 50px;
 }
-
 .list{
   line-height: 2;
   color: #282828;
 }
-
 .speciality{
   padding-left: 20px;
   font-style: italic;
 }
-
 .experience{
   line-height: 2;
 }
-
 .example{
   padding-top: 50px;
 }
-
 .code{
   background: #EBEBEB;
   color: #ff621d;
 }
-
 .function{
   color: #dd5dfb;
 }
-
 .connection{
   padding-top: 20px;
 }
-
 .adress,
 .phone,
 .github,
@@ -129,42 +106,33 @@ body{
   padding-bottom: 30px;
   list-style: none;
 }
-
 .adress{
   background: url(../image/icons/adress.png) no-repeat 0 0;
 }
-
 .phone{
   background: url(../image/icons/phone.png) no-repeat 0 0;
 }
-
 .github{
   background: url(../image/icons/github.png) no-repeat 0 0;
 }
-
 .telegram{
   background: url(../image/icons/telegram.png) no-repeat 0 0;
 }
-
 .email{
   background: url(../image/icons/email.png) no-repeat 0 0;
 }
-
 .rsschool{
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
   /*background: url(../image/rs_school_js.svg) no-repeat 150px 0;*/
 }
-
 .footer{
   background: #848482;
 }
-
 .rsschool-link{
   font-size: 20px;
 }
-
 .rsschool-image{
   width: 200px;
   height: 100px;
