@@ -1,1 +1,167 @@
-This's cv#2 css
+@font-face {
+    font-family: 'Roboto';
+    src: url("assept/fonts/Roboto-Thin.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("assept/fonts/Roboto-Regular.ttf");
+    font-weight: 300;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    color: #2F4F4F;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link,
+.contacts-link,
+.projects-link,
+.footer-link{
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #2F4F4F;
+    transition: color 0.8s;
+}
+.nav-link:hover,
+.contacts-link:hover,
+.projects-link:hover,
+.footer-link:hover {
+    color: #00FA9A;
+}
+.header,
+.footer{
+    background-color: #D8BFD8;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.profile{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-img{
+    border-radius: 200px;
+}
+.section{
+    width: 50%;
+}
+.section-title{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #D8BFD8;
+}
+.contacts-link,
+.projects-link{
+    padding: 0;
+}
+.code{
+    color: #F4A460;
+}
+.func{
+    color: #800080;
+}
+.adress{
+    background: url(./assept/image/icons/adress.png) no-repeat 0 5px;
+}
+.phone{
+    background: url(./assept/image/icons/phone.png) no-repeat 0 10px;
+}
+.mail{
+    background: url(./assept/image/icons/email.png) no-repeat 0 10px;
+}
+.github{
+    background: url(./assept/image/icons/github.png) no-repeat 0 15px;
+}
+.telegram{
+    background: url(./assept/image/icons/telegram.png) no-repeat 0 15px;
+}
+.adress,
+.phone,
+.mail,
+.github,
+.telegram{
+    padding-left: 25px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+.projects-link{
+    color: #F4A460;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+}
+.footer-img{
+    align-items: center;
+    width: 140px;
+    height: 72px;
+}
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+  
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #D8BFD8;
+    border-radius: 50%;
+}
+.section-list{
+    list-style: none;
+}
